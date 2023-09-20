@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complain</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheets" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav"> 
+      <div class="brand"><a href="#">StackedIn</div></div>
+  
+      <ul class="nav-list">
+  
+        
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <input type="checkbox" id="checkbox_toggle" />
+
+        <div class="menu">
+  
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mystack.html">My Stacks</a></li>
+  
+          <li class="profile">
+            <a href="#">Profile</a>
+            <div class="dropdown">
+              <div class="profile-leftColumn"><img class="profile-img" src="Profile Male.jpeg" alt="Profile Image"></div>
+              
+              <div class="profile-rightColumn">
+                <h1 class="profile-text">Vrishab Shetty</h1>
+                <h6 class="break-words">Software Developer</h3>
+              </div>
+            </div>
+  
+          </li>
+  
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="form.html">Complain</a></li>
+        </div>
+        </ul>
+      </nav>
+</header>
+    <div class="wrapper">
+    <div class="collection-header wrapper">
+        <h1 class="h0">eForm</h1>
+    </div>
+
+    <div>
+      <details class="note">
+        <summary>Note</summary>
+        <p>Please Enter valid details</p>
+      </details>
+        <form action="#" method="post">
+            <ul>
+              <li>
+                <label class="label-form" for="name">Name:</label>
+                <input class="field-input" type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label class="label-form" for="mail">Email:</label>
+                <input class="field-input" type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label class="label-form" for="age">Age:</label>
+                <input class="field-input" type="number" id="age" name="user_age" min="1" max="200" />
+              </li>
+              <li>
+                <label class="label-form">Gender:</label>
+                <menu class=".menu">
+                  <li>
+                    <input type="radio" id="gender_male" name="gender" value="Male">
+                    <label for="gender_male">Male</label>
+                  </li>
+                  <li>
+                      <input type="radio" id="gender_female" name="gender" value="Female">
+                      <label for="gender_female">Female</label>
+                  </li>
+                  <li>
+                    <input type="radio" id="gender_other" name="gender" value="Other">
+                    <label for="gender_other">Other</label>
+                  </li>
+                </menu>
+              
+              </li>
+              <li>
+                <label class="label-form" for="msg">Message:</label>
+                <textarea class="field-textarea"id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+
+            </ul>
+          </form>
+          </div>
+    </div>
+  </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <p>Need to contact me?</p>
+            <ul>
+                <li>
+                    <a href="mailto:vrishabshetty@gmail.com">Email</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/vrishab-shetty/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href=“tel:123-456-7890”>123-456-7890</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
